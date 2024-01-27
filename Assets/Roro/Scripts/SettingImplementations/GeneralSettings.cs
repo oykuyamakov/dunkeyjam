@@ -46,13 +46,21 @@ namespace Roro.Scripts.SettingImplementations
         public float LoadingFadeInDuration = 0.8f;
         public float LoadingFadeOutDuration = 0.8f;
 
-        #region InGame
+        #region Dice
 
-        public float PlatformSpeed = 1f;
+        public float FirstDiceSpawnDelay = 1;
+        public float DiceSpawnPeriod = 1;
+
+        #endregion
+
+        #region Dimensions
+
+        [Header("Dimensions")] public float GameStartCountdown = 10;
         
-        public float GravityChangeSpeed = 1f;
-
-        public float GravityMagnitude = 2f;
+        public float FishDimensionPeriod = 1f;
+        public float RPSPeriod = 1f;
+        public float DatingPeriod = 1f;
+        public float CowboyPeriod = 1f;
 
         #endregion
 

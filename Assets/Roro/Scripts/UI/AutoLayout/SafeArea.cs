@@ -44,7 +44,7 @@ namespace Roro.Scripts.UI.AutoLayout
 		void Awake()
 		{
 #if !UNITY_EDITOR
-			m_SafeAreaTransform.GetComponent<Image>().enabled = false;
+			//m_SafeAreaTransform.GetComponent<Image>().enabled = false;
 #endif
 
 			m_Canvas = GetComponent<Canvas>();

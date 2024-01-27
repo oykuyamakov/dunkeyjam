@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 775535cf5a6010b4b964b2b5ad029c7d, type: 3}
+  m_Name: SoundDatabase
+  m_EditorClassIdentifier: 
+  LevelWinSound: {fileID: 0}
+  LevelFailSound: {fileID: 0}
+  LevelStartSound: {fileID: 0}
+  LevelMusic: {fileID: 0}
+  DicePick: {fileID: 11400000, guid: 170c67cf460d1f04ba45574aa65efe9e, type: 2}
+  DiceLock: {fileID: 11400000, guid: ae2a6650a177acb4385dc439d010bb16, type: 2}
+  DiceSwitchDimension: {fileID: 11400000, guid: d1bba5ee41780a049ac045580c22f23e,
+    type: 2}
+  DiceHitBowl: {fileID: 11400000, guid: fb2044a44821c3341b5630410cdf9227, type: 2}
+  DiceSpawn: {fileID: 11400000, guid: e74ae35356039594094a5d52b6eec06a, type: 2}
+  MonsterHugnry: {fileID: 11400000, guid: 37af79b11f8d0ee4ea22ede4bfe09501, type: 2}
+  MonsterChew: {fileID: 11400000, guid: 77479eb04baf1f4489e63ee3dcad2ce0, type: 2}
+  Fish: {fileID: 11400000, guid: b8bcd04cd93c8b342816f759583ab5af, type: 2}
+  NoFish: {fileID: 11400000, guid: 664de866aad30ca428883e9588ea6a2b, type: 2}
+  WomanHappies:
+  - {fileID: 11400000, guid: f13aeaa389d7d0148ac37efe222c88ff, type: 2}
+  - {fileID: 11400000, guid: 8ef1771c491bc56498bb4c0b1816f781, type: 2}
+  WomanSads:
+  - {fileID: 11400000, guid: ed00f3cf1df610843bbbbf4eeb364ca6, type: 2}
+  - {fileID: 11400000, guid: 328c291a11e5dc34e899496fe1dda5f2, type: 2}
+  WomanNeutrals:
+  - {fileID: 11400000, guid: 9a59cbbe02d919e4faac56081c3fbf7f, type: 2}
+  - {fileID: 11400000, guid: d317d618178b84842b31897ad7761692, type: 2}
